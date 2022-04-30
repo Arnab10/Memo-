@@ -1,0 +1,22 @@
+{
+  "name": "node-memorandum",
+  "version": "1.0.0",
+  "description": "Memo Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arnab10/Memorandum.git"
+  },
+  "author": "Arnab Bhattacharya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arnab10/Memorandum/issues"
+  },
+  "homepage": "https://github.com/Arnab10/Memorandum#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
