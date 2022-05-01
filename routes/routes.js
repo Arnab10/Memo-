@@ -1,11 +1,10 @@
 const express = require('express')
 const router = express.Router()
-
-const greet = (req,res) => {
-    res.send('working. . .')
-}
-
-router.route('/').get(greet)
+const {test,greet} = require('../controller/TaskController')
 
 
-module.exports = routes
+router.route('/test').get(test)
+router.route('/greet').get(greet)
+
+
+module.exports = router
