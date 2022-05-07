@@ -1,6 +1,9 @@
 {
     "apiKey": "AIzaSyAvgoubzUcfl-Ibexq2FgJd95f_ZAnPEC4",
     "authDomain": "api-project-977954606246.firebaseapp.com",
-    "databaseURL": "api-project-977954606246.firebaseio.com",
-    "projectId": "api-project-977954606246"
-}
+    "databaseURL": "https://api-project-977954606246.firebaseio.com",
+    "projectId": "api-project-977954606246",
+    "storageBucket": "api-project-977954606246.appspot.com",
+    "messagingSenderId": "977954606246",
+    "appId": "1:977954606246:web:ffe8ffe35b156d3d3df867"
+  }

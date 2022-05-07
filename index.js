@@ -7,4 +7,4 @@ app.use(express.json())
 
 const port = 3000
 
-app.listen(port,console.log('starting my first ndoe project...'))
+app.listen(port,console.log('starting my first node project...'))

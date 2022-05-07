@@ -8,15 +8,20 @@ const greet =  (req, res) => {
 }
 
 const save = (req,res) =>{
-        db.set({
-        username:"username",
-        emailId:"emailId",
-    })
+        db.add(req.body)
+    .then(res=>console.log("Added ok..."))
+    .catch(err=>console.error(err))
     res.send("saved successfully...")
+}
+
+const get = async (req,res) =>{
+  const users =  await db.doc('BGV1akhMl6fJkLEgmzsH').get();
+res.send(users._fieldsProto)
 }
 
 module.exports = {
     test,
     greet,
-    save
+    save,
+    get
 }
